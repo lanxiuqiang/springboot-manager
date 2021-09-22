@@ -1,7 +1,7 @@
 package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysDept;
+import com.company.project.entity.sys.SysDept;
 import com.company.project.vo.resp.DeptRespNodeVO;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.company.project.service.impl;
 
-import com.company.project.entity.SysDept;
-import com.company.project.entity.SysUser;
+import com.company.project.entity.sys.SysDept;
+import com.company.project.entity.sys.SysUser;
 import com.company.project.service.DeptService;
 import com.company.project.service.HomeService;
 import com.company.project.service.PermissionService;

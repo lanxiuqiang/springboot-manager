@@ -2,7 +2,7 @@ package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.company.project.common.utils.DataResult;
-import com.company.project.entity.SysFilesEntity;
+import com.company.project.entity.sys.SysFilesEntity;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

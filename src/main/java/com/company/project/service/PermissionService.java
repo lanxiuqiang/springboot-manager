@@ -1,7 +1,7 @@
 package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysPermission;
+import com.company.project.entity.sys.SysPermission;
 import com.company.project.vo.resp.PermissionRespNode;
 
 import java.util.List;

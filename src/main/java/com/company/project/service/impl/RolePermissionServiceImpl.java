@@ -2,8 +2,8 @@ package com.company.project.service.impl;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.company.project.entity.SysRolePermission;
-import com.company.project.mapper.SysRolePermissionMapper;
+import com.company.project.entity.sys.SysRolePermission;
+import com.company.project.mapper.sys.SysRolePermissionMapper;
 import com.company.project.service.RolePermissionService;
 import com.company.project.vo.req.RolePermissionOperationReqVO;
 import org.springframework.stereotype.Service;

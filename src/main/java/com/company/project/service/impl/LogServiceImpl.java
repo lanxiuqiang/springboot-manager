@@ -1,8 +1,8 @@
 package com.company.project.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.company.project.entity.SysLog;
-import com.company.project.mapper.SysLogMapper;
+import com.company.project.entity.sys.SysLog;
+import com.company.project.mapper.sys.SysLogMapper;
 import com.company.project.service.LogService;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package com.company.project.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysUser;
+import com.company.project.entity.sys.SysUser;
 import com.company.project.vo.resp.LoginRespVO;
 import com.company.project.vo.resp.UserOwnRoleRespVO;
 

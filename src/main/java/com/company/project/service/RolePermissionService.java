@@ -1,7 +1,7 @@
 package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysRolePermission;
+import com.company.project.entity.sys.SysRolePermission;
 import com.company.project.vo.req.RolePermissionOperationReqVO;
 
 /**

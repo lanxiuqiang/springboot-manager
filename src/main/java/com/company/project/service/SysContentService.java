@@ -1,7 +1,7 @@
 package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysContentEntity;
+import com.company.project.entity.sys.SysContentEntity;
 
 /**
  * 内容 服务类

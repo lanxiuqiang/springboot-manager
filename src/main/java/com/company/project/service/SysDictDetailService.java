@@ -3,7 +3,7 @@ package com.company.project.service;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysDictDetailEntity;
+import com.company.project.entity.sys.SysDictDetailEntity;
 
 /**
  * 数据字典 服务类

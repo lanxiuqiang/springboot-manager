@@ -1,7 +1,7 @@
 package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysJobLogEntity;
+import com.company.project.entity.sys.SysJobLogEntity;
 
 /**
  * 定时任务 服务类

@@ -2,7 +2,7 @@ package com.company.project.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.company.project.entity.SysGenerator;
+import com.company.project.entity.sys.SysGenerator;
 
 /**
  * 代码生成

@@ -11,7 +11,7 @@
     <groupId>com.company.project</groupId>
     <artifactId>springboot-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>company-frame</name>
+    <name>manager</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

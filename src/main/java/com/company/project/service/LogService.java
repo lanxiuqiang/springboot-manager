@@ -1,7 +1,7 @@
 package com.company.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.company.project.entity.SysLog;
+import com.company.project.entity.sys.SysLog;
 
 /**
  * 系统日志
