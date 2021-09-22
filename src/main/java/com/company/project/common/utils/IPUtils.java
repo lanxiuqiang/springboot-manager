@@ -1,5 +1,7 @@
 package com.company.project.common.utils;
 
+import ch.qos.logback.classic.pattern.ClassicConverter;
+import ch.qos.logback.classic.spi.ILoggingEvent;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +17,7 @@ import java.net.UnknownHostException;
  * @version V1.0
  * @date 2020年3月18日
  */
-public class IPUtils {
+public class IPUtils extends ClassicConverter {
 
     private static Logger logger = LoggerFactory.getLogger(IPUtils.class);
 
@@ -70,4 +72,13 @@ public class IPUtils {
         return "未知";
     }
 
+    @Override
+    public String convert(ILoggingEvent event) {
+        try {
+            return InetAddress.getLocalHost().getHostAddress();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }
